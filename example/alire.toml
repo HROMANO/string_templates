@@ -1,0 +1,18 @@
+name = "example"
+description = ""
+version = "25.8"
+
+authors = ["H. ROMANO"]
+maintainers = ["H. ROMANO <shuihuzhuan@free.fr>"]
+maintainers-logins = ["HROMANO"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+executables = ["example"]
+
+[[depends-on]]
+string_templates = "*"
+
+[[pins]]
+string_templates = { path='..' }

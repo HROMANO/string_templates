@@ -1,0 +1,13 @@
+name = "string_templates"
+description = ""
+version = "25.8"
+
+authors = ["Shuihuzhuan"]
+maintainers = ["Shuihuzhuan <shuihuzhuan@free.fr>"]
+maintainers-logins = ["HROMANO"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+[[depends-on]]
+vss = "^25.0.0"
