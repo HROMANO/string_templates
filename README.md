@@ -37,6 +37,6 @@ Result : VSS.Strings.Virtual_String := Example.To_Virtual_String (["cat", "dog"]
 
 - Converting your arguments to `VSS.Strings.Virtual_String` must be done before use.
 - If there is more arguments than needed, they are just not used.
-- If the templates refers to more arguments than provided, the missing references are just not substituted.
+- If the template refers to more arguments than provided, the missing references are just not substituted.
 
 
