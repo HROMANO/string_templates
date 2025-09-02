@@ -149,7 +149,7 @@ package body String_Templates is
                   if Current_Character = Self.Escape_Character then
 
                      if not Current_Character_Index.Forward then
-                        Result.Append ("\");
+                        Result.Append (Self.Escape_Character);
                         exit;
                      end if;
 
