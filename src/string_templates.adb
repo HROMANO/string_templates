@@ -1,4 +1,4 @@
-with Ada.Strings.UTF_Encoding.Conversions;
+with Ada.Strings.UTF_Encoding;
 
 with VSS.Strings.Conversions;
 with VSS.Strings.Cursors.Iterators.Characters;

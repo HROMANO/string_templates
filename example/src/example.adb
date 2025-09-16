@@ -97,7 +97,7 @@ begin
    New_Line;
 
    Put_Line ("Example with direct substitution ('Substitute' function):");
-   Put_Line ("Template = " & "Hello |1|!");
+   Put_Line ("Template = " & "Hello |1| number|2|!");
    Put ("Result   = ");
    Put_Line
      (String_Templates.Substitute
