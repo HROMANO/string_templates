@@ -16,3 +16,6 @@ string_templates = "*"
 
 [[pins]]
 string_templates = { path='..' }
+
+[[depends-on]]
+vss_extra = "^26.2.0"

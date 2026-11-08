@@ -144,7 +144,7 @@ package body String_Templates is
             Current_Character := Current_Character_Index.Element;
 
             case Current_State is
-               when Normal =>
+               when Normal  =>
 
                   if Current_Character = Self.Escape_Character then
 
@@ -174,7 +174,7 @@ package body String_Templates is
                      when '0' .. '9' =>
                         Temporary_Buffer.Append (Current_Character);
 
-                     when others =>
+                     when others     =>
                         if Current_Character = Self.Right_Delimiter then
                            begin
                               Argument_Index :=

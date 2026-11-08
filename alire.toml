@@ -52,4 +52,4 @@ website = "https://github.com/HROMANO/string_templates"
 tags = ["string"]
 
 [[depends-on]]
-vss = "^25.0.0"
+vss_text = "^26.2.0"

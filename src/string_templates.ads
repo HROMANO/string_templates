@@ -11,8 +11,8 @@ package String_Templates is
    subtype Virtual_String_Vector is VSS.String_Vectors.Virtual_String_Vector;
 
    Empty_Virtual_String renames VSS.Strings.Empty_Virtual_String;
-   Empty_Virtual_String_Vector
-     renames VSS.String_Vectors.Empty_Virtual_String_Vector;
+   Empty_Virtual_String_Vector renames
+     VSS.String_Vectors.Empty_Virtual_String_Vector;
 
    Default_Left_Delimiter   : constant Virtual_Character := '{';
    Default_Right_Delimiter  : constant Virtual_Character := '}';
